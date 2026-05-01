@@ -5,36 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>CompTIA Linux+ Bootcamp | NAF Tech Academy</title>
     <meta name="description" content="Get hands-on with Linux administration, scripting, and server tasks. Perfect for aspiring system administrators.">
-    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
     <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <img src="../assets/images/logo.jpeg" alt="NAF Tech Academy Logo" height="40">
-            </div>
-            <button class="hamburger" aria-label="Open menu">
+            <a class="logo" href="../index.html" aria-label="NAF Tech Academy home">
+                <img src="../assets/images/logo.jpeg" alt="" height="44">
+                <span>
+                    <span class="brand-name">NAF Tech Academy</span>
+                    <span class="brand-subtitle">IT training for career changers</span>
+                </span>
+            </a>
+            <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="site-navigation">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../about/about.html">About</a></li>
-                <li><a href="course.html" class="active">Courses</a></li>
-                <li><a href="../team/team.html">Team</a></li>
-                <li><a href="../testimonials/testimonials.html">Testimonials</a></li>
-                <li><a href="../contact/contact.html">Contact</a></li>
-            </ul>
+            <div class="nav-actions" id="site-navigation">
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="course.html" class="active">Courses</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="../testimonials/testimonials.html">Success Stories</a></li>
+                    <li><a href="../faq/faq.html">FAQ</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+                <a class="nav-cta" href="../contact/contact.html">Book Info Session</a>
+            </div>
         </nav>
     </header>
 
-    <main class="course-detail">
+    <main class="course-detail" id="main">
         <div class="course-detail-header">
             <img src="../assets/images/course3.png" alt="CompTIA Linux+ Logo" class="course-hero-img">
             <div>
-                <h1>CompTIA Linux+ Bootcamp <span style="color:#27ae60">(Coming Soon)</span></h1>
+                <h1>CompTIA Linux+ Bootcamp</h1>
+                <p><span class="badge badge-soon">Coming Soon</span></p>
                 <p class="course-summary">
                     Master Linux administration, scripting, and troubleshooting with real-world labs and expert support. Perfect for anyone looking to become a system admin or cloud engineer!
                 </p>
@@ -43,45 +51,50 @@
         </div>
 
         <section class="course-info">
-            <h2>Curriculum Highlights</h2>
-            <ul>
-                <li>Linux installation and system architecture</li>
-                <li>User and group management</li>
-                <li>Shell scripting and automation basics</li>
-                <li>Filesystem, permissions, and networking</li>
-                <li>Troubleshooting, security, and real labs</li>
-            </ul>
-
-            <h2>Upcoming Start Dates</h2>
-            <ul>
-                <li><strong>Coming Soon!</strong> (Sign up to get notified about the next cohort.)</li>
-            </ul>
-
-            <h2>Pricing</h2>
-            <p><strong>$549</strong> (Waitlist discount may be available)</p>
-            <ul>
-                <li>Includes live instruction, hands-on labs, and mentorship</li>
-                <li>Flexible payment options—ask us!</li>
-            </ul>
-
-            <h2>FAQ</h2>
-            <ul>
-                <li><strong>Do I need Linux experience?</strong> No, this course starts with the basics but gets hands-on quickly!</li>
-                <li><strong>Is the CompTIA Linux+ exam included?</strong> Exam fee is not included but we provide guidance and resources.</li>
-                <li><strong>What if I’m not sure if Linux is right for me?</strong> Try our free info session or ask for a course preview!</li>
-            </ul>
-            <p class="see-more-faq">
-                <a href="../faq/faq.html">See our full FAQ for more answers &rarr;</a>
-            </p>
+            <div class="course-info-section">
+                <h2>Curriculum Highlights</h2>
+                <ul>
+                    <li>Linux installation and system architecture</li>
+                    <li>User and group management</li>
+                    <li>Shell scripting and automation basics</li>
+                    <li>Filesystem, permissions, and networking</li>
+                    <li>Troubleshooting, security, and real labs</li>
+                </ul>
+            </div>
+            <div class="course-info-section">
+                <h2>Status</h2>
+                <ul>
+                    <li><strong>Coming soon.</strong> Join the waitlist to be notified about the next cohort.</li>
+                </ul>
+            </div>
+            <div class="course-info-section">
+                <h2>Pricing</h2>
+                <p><strong>$549</strong> planned tuition. Waitlist discount may be available.</p>
+                <ul>
+                    <li>Includes live instruction, hands-on labs, and mentorship</li>
+                    <li>Flexible payment options available</li>
+                </ul>
+            </div>
+            <div class="course-info-section">
+                <h2>Common Questions</h2>
+                <ul>
+                    <li><strong>Do I need Linux experience?</strong> No, this course starts with the basics.</li>
+                    <li><strong>Is the exam included?</strong> Exam fee is not included, but we provide guidance.</li>
+                    <li><strong>Not sure if Linux is right?</strong> Book an info session and ask for a preview.</li>
+                </ul>
+                <p class="see-more-faq">
+                    <a href="../faq/faq.html">See the full FAQ &rarr;</a>
+                </p>
+            </div>
         </section>
         <a href="../contact/contact.html" class="btn btn-large btn-secondary">Join Waitlist</a>
     </main>
 
     <footer>
         <div class="footer-content">
-            <p>&copy; 2025 Naf Tech Academy. All rights reserved.</p>
+            <p>&copy; 2026 Naf Tech Academy. All rights reserved.</p>
             <p>
-                <a href="#">Privacy Policy</a> | <a href="#">Terms</a> | <a href="../contact/contact.html">Contact</a>
+                <a href="../faq/faq.html">FAQ</a> | <a href="course.html">Courses</a> | <a href="../contact/contact.html">Contact</a>
             </p>
         </div>
     </footer>
