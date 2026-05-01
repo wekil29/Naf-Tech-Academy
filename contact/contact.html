@@ -17,59 +17,70 @@
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
 
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
     <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
-    <!-- Header/Navbar -->
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <img src="../assets/images/logo.jpeg" alt="NAF Tech Academy Logo" height="40">
-            </div>
-            <button class="hamburger" aria-label="Open menu">
+            <a class="logo" href="../index.html" aria-label="NAF Tech Academy home">
+                <img src="../assets/images/logo.jpeg" alt="" height="44">
+                <span>
+                    <span class="brand-name">NAF Tech Academy</span>
+                    <span class="brand-subtitle">IT training for career changers</span>
+                </span>
+            </a>
+            <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="site-navigation">
                 <span></span>
                 <span></span>
                 <span></span>
               </button>
-            <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../about/about.html">About</a></li>
-                <li><a href="../course/course.html">Courses</a></li>
-                <li><a href="../team/team.html">Team</a></li>
-                <li><a href="../testimonials/testimonials.html">Testimonials</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
+            <div class="nav-actions" id="site-navigation">
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../course/course.html">Courses</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="../testimonials/testimonials.html">Success Stories</a></li>
+                    <li><a href="../faq/faq.html">FAQ</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <a class="nav-cta" href="contact.html">Book Info Session</a>
+            </div>
         </nav>
     </header>
 
-    <!-- Contact Section -->
+    <main id="main">
+    <section class="page-hero">
+        <div class="page-hero-inner">
+            <p class="eyebrow">Contact</p>
+            <h1>Tell us your goal. We will help you choose the right next step.</h1>
+            <p class="lead">Ask about schedules, tuition, course fit, exam preparation, or whether IT is the right starting point for you.</p>
+        </div>
+    </section>
+
     <section class="contact-main">
-        <h1>Contact Naf Tech Academy</h1>
-        <p style="text-align:center;max-width:650px;margin:0 auto 2em auto;">
-            Have a question? Ready to enroll or want to learn more about our programs? Reach out anytime—we're here to help!
-        </p>
         <div class="contact-grid">
-            <!-- Contact Form -->
             <div class="contact-form-box">
+                <h2>Send a message</h2>
                 <form class="contact-form" action="https://formspree.io/f/myzpyqyy" method="POST">
 
-                        <!-- Hidden field for spam bots -->
                     <input type="text" name="_gotcha" style="display:none">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
                     
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
                     
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us your goal, current experience, and which course you are considering." required></textarea>
                     
                     <button type="submit" class="btn">Send Message</button>
                 </form>
             </div>
-            <!-- Contact Info -->
             <div class="contact-info-box">
-                <h2>Contact Information</h2>
+                <h2>Quick contact</h2>
+                <p>Prefer a direct conversation? Use email, phone, or Telegram and we will help you understand the options.</p>
                 <ul class="contact-info-list">
                     <li><strong>Email:</strong> <a href="mailto:naftechacademy@gmail.com">naftechacademy@gmail.com</a></li>
                     <li><strong>Phone:</strong> 
@@ -77,32 +88,22 @@
                         <a href="tel:+19453467273">+1 (945) 346-7273</a>
                     </li>
                     <li><strong>Telegram:</strong> <a href="https://t.me/naf_infosolutions" target="_blank">Join our Telegram (500+)</a></li>
-                    <!-- Add more as needed -->
                 </ul>
-                <!-- Optional: Physical address & Google Map -->
-                <!--
-                <div class="contact-address">
-                    <strong>Address:</strong>
-                    <p>123 Main St, Dallas, TX 75201</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=YOUR-EMBED-CODE" width="100%" height="160" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                -->
-                <!-- Social Links (Optional) -->
                 <div class="contact-social">
                     <a href="https://t.me/naf_infosolutions" target="_blank">Telegram</a>
-                    <a href="https://www.tiktok.com/belaya_ontech" target="_blank">Tiktok</a> | 
-                    <a href="https://www.facebook.com/belayazgreat/" target="_blank">Facebook</a> | 
+                    <a href="https://www.tiktok.com/belaya_ontech" target="_blank">TikTok</a>
+                    <a href="https://www.facebook.com/belayazgreat/" target="_blank">Facebook</a>
                 </div>
             </div>
         </div>
     </section>
+    </main>
 
-    <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <p>&copy; 2025 Naf Tech Academy. All rights reserved.</p>
+            <p>&copy; 2026 Naf Tech Academy. All rights reserved.</p>
             <p>
-                <a href="#">Privacy Policy</a> | <a href="#">Terms</a> | <a href="contact.html">Contact</a>
+                <a href="../faq/faq.html">FAQ</a> | <a href="../course/course.html">Courses</a> | <a href="contact.html">Contact</a>
             </p>
         </div>
     </footer>

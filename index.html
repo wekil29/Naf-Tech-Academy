@@ -1,168 +1,268 @@
-<link rel="stylesheet" href="assets/css/style.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>NAF Tech Academy | Launch Your IT Career</title>
+    <title>NAF Tech Academy | Beginner-Friendly IT Bootcamps</title>
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Naf Tech Academy: Beginner-friendly IT and cybersecurity bootcamps in Dallas. Launch your tech career fast!">
+    <meta name="description" content="NAF Tech Academy helps beginners and career changers build practical IT skills through small cohorts, hands-on labs, mentorship, and certification-focused bootcamps.">
     <meta name="keywords" content="IT, Bootcamp, CompTIA, Security+, A+, Dallas, Tech Academy, Certification, Naf Tech Academy">
     <meta name="author" content="Naf Tech Academy">
 
     <!-- Social Sharing/Open Graph -->
-    <meta property="og:title" content="Naf Tech Academy | Launch Your IT Career">
-    <meta property="og:description" content="Beginner-friendly IT and cybersecurity bootcamps in Dallas. Start your tech career today!">
+    <meta property="og:title" content="NAF Tech Academy | Beginner-Friendly IT Bootcamps">
+    <meta property="og:description" content="Small-group IT and cybersecurity bootcamps with hands-on labs, mentorship, and career support.">
     <meta property="og:image" content="https://wekil29.github.io/Naf-Tech-Academy/assets/images/logo.jpeg">
     <meta property="og:url" content="https://wekil29.github.io/Naf-Tech-Academy/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <!-- Header/Navbar -->
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <img src="assets/images/logo.jpeg" alt="NAF Tech Academy Logo" height="40">
-            </div>
-            <!-- Hamburger Menu Button -->
-            <button class="hamburger" aria-label="Open menu">
+            <a class="logo" href="index.html" aria-label="NAF Tech Academy home">
+                <img src="assets/images/logo.jpeg" alt="" height="44">
+                <span>
+                    <span class="brand-name">NAF Tech Academy</span>
+                    <span class="brand-subtitle">IT training for career changers</span>
+                </span>
+            </a>
+            <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="site-navigation">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about/about.html">About</a></li>
-                <li><a href="course/course.html">Courses</a></li>
-                <li><a href="team/team.html">Team</a></li>
-                <li><a href="testimonials/testimonials.html">Testimonials</a></li>
-                <li><a href="contact/contact.html">Contact</a></li>
-            </ul>
+            <div class="nav-actions" id="site-navigation">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="course/course.html">Courses</a></li>
+                    <li><a href="about/about.html">About</a></li>
+                    <li><a href="testimonials/testimonials.html">Success Stories</a></li>
+                    <li><a href="faq/faq.html">FAQ</a></li>
+                    <li><a href="contact/contact.html">Contact</a></li>
+                </ul>
+                <a class="nav-cta" href="contact/contact.html">Book Info Session</a>
+            </div>
         </nav>
     </header>
     
-
-    <!-- Hero Section -->
-    <section class="hero">
+    <main id="main">
+    <section class="hero" aria-labelledby="home-title">
         <img class="hero-bg" src="assets/images/hero-bg.jpg" alt="Students working on laptops">
         <div class="hero-content">
-            <h1>Launch your IT career</h1>
-            <p>Fast, affordable certifications for beginners</p>
-            <a href="course/course.html" class="btn">View Courses</a>
+            <p class="eyebrow">Small-group IT certification bootcamps</p>
+            <h1 id="home-title">Beginner-friendly IT training that helps you move with confidence.</h1>
+            <p>Learn A+, Security+, and practical support skills with hands-on labs, instructor guidance, and career coaching built for busy adults.</p>
+            <div class="hero-actions">
+                <a href="course/course.html" class="btn">Explore Courses</a>
+                <a href="contact/contact.html" class="btn-secondary">Book an Info Session</a>
+            </div>
+            <div class="trust-strip" aria-label="Program highlights">
+                <span class="trust-pill">Weekend & evening options</span>
+                <span class="trust-pill">Hands-on labs</span>
+                <span class="trust-pill">Resume and interview support</span>
+            </div>
         </div>
     </section>
 
-    <!-- About Preview -->
-    <section class="about-preview">
+    <section class="section section-tight" aria-labelledby="student-path-title">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number">0</span>
+                <span class="stat-label">Prior IT experience required</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">4-8</span>
+                <span class="stat-label">Week focused bootcamps</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">1:1</span>
+                <span class="stat-label">Mentorship and career support</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">Live</span>
+                <span class="stat-label">Instructor-led learning</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-preview section" aria-labelledby="student-path-title">
         <div class="about-img">
             <img src="assets/images/about.jpg" alt="Students in classroom">
         </div>
         <div class="about-text">
-            <h2>Empowering Your IT Future</h2>
-            <p>
-                Naf Tech Academy equips you with the skills needed to thrive in IT. Our community-based bootcamps focus on beginner-friendly certifications including A+, Security+, and more. With hands-on labs, mentorship, and flexible schedules, you can launch a successful tech career!
-            </p>
-            <a href="#" class="btn-secondary">Learn More</a>
+            <p class="eyebrow">Built for first steps</p>
+            <h2 id="student-path-title">A clearer path from "I am interested in tech" to "I know what to do next."</h2>
+            <p class="lead">Students should not have to decode the tech industry alone. NAF Tech Academy keeps the learning path practical, supportive, and focused on the skills employers expect from entry-level IT professionals.</p>
+            <ul class="value-list">
+                <li>Choose a certification path that fits your current level.</li>
+                <li>Practice with labs instead of only watching lectures.</li>
+                <li>Get help with resumes, interviews, and exam planning.</li>
+            </ul>
+            <a href="about/about.html" class="btn-secondary">Learn About NAF</a>
         </div>
     </section>
 
-    <!-- Courses Preview -->
-    <section class="courses-preview">
-        <h2>Our Bootcamps</h2>
+    <section class="courses-preview section" aria-labelledby="courses-title">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">Choose your path</p>
+                <h2 id="courses-title">Certification-focused programs</h2>
+            </div>
+            <p class="lead">Every program keeps the next step visible: what you learn, who it is for, and how to get help before enrolling.</p>
+        </div>
         <div class="courses-list">
             <div class="course-card">
                 <img src="assets/images/course1.png" alt="CompTIA A+">
+                <div class="course-meta">
+                    <span class="badge badge-live">Beginner</span>
+                    <span>4-8 weeks</span>
+                </div>
                 <h3>
                     <a href="course/aplus.html">CompTIA A+ Bootcamp</a>
                 </h3>                
-                <p>Jumpstart your IT journey with beginner-friendly, hands-on A+ training.</p>
+                <p>Start with help desk fundamentals, hardware, operating systems, troubleshooting, and exam prep.</p>
+                <a href="course/aplus.html" class="btn-secondary">View A+ Details</a>
             </div>
             <div class="course-card">
                 <img src="assets/images/course2.png" alt="CompTIA Security+">
+                <div class="course-meta">
+                    <span class="badge badge-live">Cybersecurity</span>
+                    <span>4 weeks</span>
+                </div>
                 <h3>
-                    <a href="course/securityplus.html"> A Security+ Bootcamp</a>
+                    <a href="course/securityplus.html">CompTIA Security+ Bootcamp</a>
                 </h3>
-                <p>Secure your future with industry-recognized cybersecurity certification training.</p>
+                <p>Build security fundamentals with threat concepts, risk, network defense, identity, and hands-on practice.</p>
+                <a href="course/securityplus.html" class="btn-secondary">View Security+ Details</a>
             </div>
             <div class="course-card">
-                <img src="assets/images/course3.png" alt="CompTIA Network+">
+                <img src="assets/images/course3.png" alt="CompTIA Linux+">
+                <div class="course-meta">
+                    <span class="badge badge-soon">Coming soon</span>
+                    <span>Waitlist</span>
+                </div>
                 <h3>
                     <a href="course/linuxplus.html">CompTIA Linux+ Bootcamp</a>
                 </h3>
-                <p>Master linux fundamentals and troubleshooting with hands-on labs.</p>
+                <p>Get hands-on with Linux administration, scripting, permissions, networking, and server tasks.</p>
+                <a href="course/linuxplus.html" class="btn-secondary">Join Waitlist</a>
             </div>
         </div>
     </section>
 
-    <!-- why-choose-us -->
-    <section class="why-choose-us">
-        <h2>Why Choose Naf Tech Academy?</h2>
+    <section class="section" aria-labelledby="how-it-works-title">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">Simple enrollment</p>
+                <h2 id="how-it-works-title">How to get started</h2>
+            </div>
+        </div>
+        <div class="steps">
+            <div class="step-card">
+                <span>Step 1</span>
+                <h3>Book a short info session</h3>
+                <p>Ask questions, share your goal, and confirm which course fits your situation.</p>
+            </div>
+            <div class="step-card">
+                <span>Step 2</span>
+                <h3>Join a small cohort</h3>
+                <p>Learn with instructor support, structured labs, and classmates on the same path.</p>
+            </div>
+            <div class="step-card">
+                <span>Step 3</span>
+                <h3>Prepare for certification</h3>
+                <p>Review exam topics, practice your weak areas, and get career support before applying.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us section" aria-labelledby="why-title">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">Why students choose us</p>
+                <h2 id="why-title">Support that makes the path easier</h2>
+            </div>
+        </div>
         <div class="choose-grid">
             <div class="choose-card">
                 <img src="assets/images/class-size.jpg" alt="Small Class Sizes">
                 <h3>Small Class Sizes</h3>
                 <p>
-                    Enjoy a personalized learning experience with small cohorts. Get real attention from instructors—never feel lost in the crowd.
+                    Enjoy a personalized learning experience with small cohorts. Get real attention from instructors and avoid feeling lost in the crowd.
                 </p>
             </div>
             <div class="choose-card">
                 <img src="assets/images/flexible-schedule.jpg" alt="Flexible Schedule">
                 <h3>Flexible Schedules</h3>
                 <p>
-                    Classes designed for busy adults—choose weekends or evenings. Learn at your own pace, around your job or family.
+                    Classes designed for busy adults with weekend and evening options. Learn at your own pace, around your job or family.
                 </p>
             </div>
             <div class="choose-card">
                 <img src="assets/images/mentorship.jpg" alt="1 to 1 Mentorship">
                 <h3>1-to-1 Mentorship</h3>
                 <p>
-                    Get individual support and guidance from industry professionals. We’ll help you every step—from your first lab to your first IT job.
+                    Get individual support and guidance from industry professionals. We will help you every step, from your first lab to your first IT job.
                 </p>
             </div>
             <div class="choose-card">
                 <img src="assets/images/career-coaching.jpg" alt="Career Coaching">
-                <h3>Career Coaching <span style="color: #27ae60;">(Free!)</span></h3>
+                <h3>Career Coaching Included</h3>
                 <p>
-                    Our students receive resume reviews, interview prep, and job search help—**all included, no extra fees**.
+                    Students receive resume reviews, interview prep, and job search guidance as part of the program.
                 </p>
             </div>
         </div>
         <p class="choose-note">
-            All these benefits come included in your program—no hidden fees, just real results.
+            All these benefits come included in your program with clear expectations and real support.
         </p>
     </section>
     
-
-    <!-- Testimonials Preview -->
-    <section class="testimonials-preview">
-        <h2>Hear from Our Students!</h2>
+    <section class="testimonials-preview section" aria-labelledby="stories-title">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">Student confidence</p>
+                <h2 id="stories-title">Hear from our students</h2>
+            </div>
+            <a href="testimonials/testimonials.html" class="btn-secondary">Read More Stories</a>
+        </div>
         <div class="testimonials-list">
             <div class="testimonial-card">
-                <img src="assets/images/testimonial1.png" alt="Student Helina">
+                <span class="testimonial-avatar" aria-hidden="true">HM</span>
                 <p>"The hands-on labs and mentorship made everything click. I passed my A+ in just weeks!"</p>
                 <span>- Helina M.</span>
             </div>
             <div class="testimonial-card">
-                <img src="assets/images/testimonial2.jpg" alt="Student Jemay">
+                <span class="testimonial-avatar" aria-hidden="true">JK</span>
                 <p>"Flexible classes and real support. Naf Tech Academy changed my career path."</p>
                 <span>- Jemay K.</span>
             </div>
             <div class="testimonial-card">
-                <img src="assets/images/testimonial3.jpg" alt="Student Betty">
+                <span class="testimonial-avatar" aria-hidden="true">BL</span>
                 <p>"Instructors really care. Highly recommend for anyone starting in IT!"</p>
                 <span>- Betty L.</span>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <section class="cta-band" aria-labelledby="cta-title">
+        <div>
+            <h2 id="cta-title">Not sure where to start?</h2>
+            <p>Send us your goal and current experience level. We will help you choose the right first step.</p>
+        </div>
+        <a href="contact/contact.html" class="btn">Book an Info Session</a>
+    </section>
+    </main>
+
     <footer>
         <div class="footer-content">
-            <p>&copy; 2025 Naf Tech Academy. All rights reserved.</p>
+            <p>&copy; 2026 Naf Tech Academy. All rights reserved.</p>
             <p>
-                <a href="#">Privacy Policy</a> | <a href="#">Terms</a> | <a href="#">Contact</a>
+                <a href="faq/faq.html">FAQ</a> | <a href="course/course.html">Courses</a> | <a href="contact/contact.html">Contact</a>
             </p>
         </div>
     </footer>

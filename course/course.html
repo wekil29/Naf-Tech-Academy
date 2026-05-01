@@ -16,99 +16,109 @@
     <meta property="og:url" content="https://wekil29.github.io/Naf-Tech-Academy/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
     <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
-    <!-- Header/Navbar -->
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <img src="../assets/images/logo.jpeg" alt="NAF Tech Academy Logo" height="40">
-            </div>
-            <button class="hamburger" aria-label="Open menu">
+            <a class="logo" href="../index.html" aria-label="NAF Tech Academy home">
+                <img src="../assets/images/logo.jpeg" alt="" height="44">
+                <span>
+                    <span class="brand-name">NAF Tech Academy</span>
+                    <span class="brand-subtitle">IT training for career changers</span>
+                </span>
+            </a>
+            <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="site-navigation">
                 <span></span>
                 <span></span>
                 <span></span>
               </button>
-            <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../about/about.html">About</a></li>
-                <li><a href="course.html" class="active">Courses</a></li>
-                <li><a href="../team/team.html">Team</a></li>
-                <li><a href="../testimonials/testimonials.html">Testimonials</a></li>
-                <li><a href="../contact/contact.html">Contact</a></li>
-            </ul>
+            <div class="nav-actions" id="site-navigation">
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="course.html" class="active">Courses</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="../testimonials/testimonials.html">Success Stories</a></li>
+                    <li><a href="../faq/faq.html">FAQ</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+                <a class="nav-cta" href="../contact/contact.html">Book Info Session</a>
+            </div>
         </nav>
     </header>
 
-    <!-- Courses Section -->
+    <main id="main">
+    <section class="page-hero">
+        <div class="page-hero-inner">
+            <p class="eyebrow">Courses</p>
+            <h1>Pick the IT path that matches your next step.</h1>
+            <p class="lead">Compare beginner-friendly programs by goal, level, schedule, and outcome before you contact us.</p>
+        </div>
+    </section>
+
     <section class="courses-main">
-        <h1>Our Bootcamps & Courses</h1>
-        <p style="text-align:center;max-width:750px;margin:0 auto 2em auto;">
-            Beginner-friendly IT and cybersecurity bootcamps designed to get you certified and hired, fast.<br>
-            All programs include hands-on labs, instructor mentorship, and job support.
-        </p>
         <div class="courses-list">
-            <!-- Course Card 1 -->
             <div class="course-card">
                 <img src="../assets/images/course1.png" alt="CompTIA A+">
+                <div class="course-meta">
+                    <span class="badge badge-live">Open enrollment</span>
+                    <span>Beginner</span>
+                    <span>4-8 weeks</span>
+                </div>
                 <h3>CompTIA A+ Bootcamp</h3>
                 <p>
-                    Start your IT career from zero! Learn PC hardware, troubleshooting, OS, security, and get certified.<br>
-                    <strong>Schedule:</strong> Weekends & Evenings<br>
-                    <strong>Duration:</strong> 4-8 weeks<br>
-                    <strong>Level:</strong> Beginner
+                    Start from zero with PC hardware, operating systems, troubleshooting, networking basics, security, and exam prep.
                 </p>
-                <!-- Optional: Link to individual course page -->
-                <!-- <a href="aplus.html" class="btn">Course Details</a> -->
                 <a href="aplus.html" class="btn">Course Details</a>
             </div>
-            <!-- Course Card 2 -->
             <div class="course-card">
                 <img src="../assets/images/course2.png" alt="CompTIA Security+">
+                <div class="course-meta">
+                    <span class="badge badge-live">Open enrollment</span>
+                    <span>Beginner/Intermediate</span>
+                    <span>4 weeks</span>
+                </div>
                 <h3>CompTIA Security+ Bootcamp</h3>
                 <p>
-                    Launch a career in cybersecurity! Learn core security concepts, hands-on labs, exam prep, and job tips.<br>
-                    <strong>Schedule:</strong> Weekends & Evenings<br>
-                    <strong>Duration:</strong> 4 weeks<br>
-                    <strong>Level:</strong> Beginner/Intermediate
+                    Learn security concepts, threats, secure networking, identity, risk management, hands-on labs, and exam strategy.
                 </p>
                 <a href="securityplus.html" class="btn">Course Details</a>
-                <!-- <a href="../contact/contact.html" class="btn">Reserve Spot</a> -->
             </div>
-            <!-- Course Card 3 -->
             <div class="course-card">
                 <img src="../assets/images/course3.png" alt="Linux+">
-                <h3>Linux+ Bootcamp <span style="color:#27ae60">(Coming Soon)</span></h3>
+                <div class="course-meta">
+                    <span class="badge badge-soon">Coming soon</span>
+                    <span>Waitlist</span>
+                </div>
+                <h3>Linux+ Bootcamp</h3>
                 <p>
-                    Get hands-on with Linux, scripting, and real server tasks. Designed for aspiring system admins.<br>
-                    <strong>Schedule:</strong> Coming Soon<br>
-                    <strong>Level:</strong> Beginner/Intermediate
+                    Get hands-on with Linux, scripting, permissions, networking, and server tasks for support and admin roles.
                 </p>
                 <a href="linuxplus.html" class="btn btn-secondary">Course Details</a>
-                <!-- <a href="../contact/contact.html" class="btn btn-secondary">Join Waitlist</a> -->
             </div>
-            <!-- Course Card 4 -->
             <div class="course-card">
                 <img src="../assets/images/course4.png" alt="Spring Boot">
-                <h3>Spring Boot (Java) Bootcamp <span style="color:#27ae60">(Coming Soon)</span></h3>
+                <div class="course-meta">
+                    <span class="badge badge-soon">Coming soon</span>
+                    <span>Developer track</span>
+                </div>
+                <h3>Spring Boot Java Bootcamp</h3>
                 <p>
-                    Build real web apps and APIs with Java Spring Boot. From basics to deployment—great for new devs.<br>
-                    <strong>Schedule:</strong> Coming Soon<br>
-                    <strong>Level:</strong> Beginner/Intermediate
+                    Build web apps and APIs with Java Spring Boot. Designed as a future developer track for new programmers.
                 </p>
-                <!-- <a href="springboot.html" class="btn btn-secondary">Course Details</a> -->
                 <a href="../contact/contact.html" class="btn btn-secondary">Join Waitlist</a>
             </div>
         </div>
     </section>
+    </main>
 
-    <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <p>&copy; 2025 Naf Tech Academy. All rights reserved.</p>
+            <p>&copy; 2026 Naf Tech Academy. All rights reserved.</p>
             <p>
-                <a href="#">Privacy Policy</a> | <a href="#">Terms</a> | <a href="../contact/contact.html">Contact</a>
+                <a href="../faq/faq.html">FAQ</a> | <a href="course.html">Courses</a> | <a href="../contact/contact.html">Contact</a>
             </p>
         </div>
     </footer>
